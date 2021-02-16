@@ -1,0 +1,14 @@
+.slider {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: left;
+	width: 1100px;
+}
+
+.col {
+	margin: 5px;
+}
+
+.slider img {
+	height: 200px;
+}
