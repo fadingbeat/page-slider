@@ -5,39 +5,54 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="page-slider.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <title>Image slider</title>
 </head>
 <body>
-<div id="main">
+<div class="wrapper">
   <div class="slider">
-      <div class="item1 col">
+      <li class="item col">
         <img src="./Assets/slider-image-1.jpg" alt=""/>
-      </div>
-      <div class="item2 col">
+      </li>
+      <li class="item col">
         <img src="./Assets/slider-image-2.jpg" alt=""/>
-      </div>
-      <div class="item3 col">
+      </li>
+      <li class="item col">
         <img src="./Assets/slider-image-3.jpg" alt=""/>
-      </div>
-      <div class="item4 col">
+      </li>
+      <li class="item col">
         <img src="./Assets/slider-image-4.jpg" alt=""/>
-      </div>
-      <div class="item5 col">
+      </li>
+      <li class="item col">
         <img src="./Assets/slider-image-5.jpg" alt=""/>
-      </div>
-      <div class="item6 col">
+      </li>
+      <li class="item col">
         <img src="./Assets/slider-image-6.jpg" alt=""/>
-      </div>
-      <div class="item7 col">
+      </li>
+      <li class="item col">
         <img src="./Assets/slider-image-7.jpg" alt=""/>
-      </div>
-      <div class="item8 col">
+      </li>
+      <li class="item col">
         <img src="./Assets/slider-image-8.jpg" alt=""/>
+      </li>
+      <li class="item col">
+        <img src="./Assets/slider-image-9.jpg" alt="" class="active" />
+      </li>
+      <div class="left_arrows">
+        <img src="./Assets/arrow-blue-left.png">
+        <img src="./Assets/arrow-gray-left.png">
       </div>
-      <div class="item9 col">
-        <img src="./Assets/slider-image-9.jpg" alt=""/>
+      <div class="right_arrows">
+        <img src="./Assets/arrow-blue-right.png">
+        <img src="./Assets/arrow-gray-right.png">
       </div>
   </div>
+  <div class="item col right-copy">
+    <p>Lorem ipsum dolor sit amet consectetuer adipiscing elit </p>
+    <p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
+  </div>
 </div>
+
+<script src="page-slider.js"></script>
 </body>
 </html>
