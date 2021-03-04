@@ -83,49 +83,40 @@
 	border-radius: 5px;
 }
 
-.left_arrows img, .right_arrows img {
-	height: unset;
-}
-
-.left_arrows {
-	position: absolute;
-}
-
-.left_arrows img:first-child {
-	position: absolute;
-	left: 64.65em;
-	top: 4.5em;
-	padding: 1.2em;
+// button styles
+.btn_left {
+	background-image: url(./Assets/arrow-gray-left.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 1.9em;
 	border: 1px solid #DDDDDD;
+
+	position: absolute;
+  left: 77.4em;
+	top: 32.9em;
 	box-sizing: border-box;
 	border-radius: 5px;
 }
-.left_arrows img:last-child {
-	position: absolute;
-	left: 15em;
-	top: -5em;
-	display: none;
-}
-.right_arrows {
-	position: absolute;
-	top: -0.5em;
-}
-.right_arrows img:first-child {
-	position: absolute;
-    left: 64.65em;
-	top: 23.7em;
-	padding: 1.2em;
-	border: 1px solid #DDDDDD;
-	box-sizing: border-box;
-	border-radius: 5px;
-}
-.right_arrows img:first-child:hover, .left_arrows img:first-child:hover {
+.btn_left:hover {
+	background-image: url(./Assets/arrow-blue-left.png);
 	border-color: #134880;
 }
-.right_arrows img:last-child {
+.btn_right {
+	background-image: url(./Assets/arrow-gray-right.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 1.9em;
+	border: 1px solid #DDDDDD;
+
 	position: absolute;
-	left: 14.5em;
-	display: none;
+  left: 77.4em;
+	top: 27.9em;
+	box-sizing: border-box;
+	border-radius: 5px;
+}
+.btn_right:hover {
+	background-image: url(./Assets/arrow-blue-right.png);
+	border-color: #134880;
 }
 
 .right-copy p:first-child {
