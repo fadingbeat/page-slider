@@ -4,7 +4,7 @@ $(document).ready(function () {
     var w = $('.wrapper').width() / show;
     
     function slider() {
-        $(".left_arrows img:first-child").click(function() {
+        $(".btn_left").click(function() {
             $('.item:first-child').animate({
                 marginLeft: -w,
                 opacity: '0.4'
@@ -13,7 +13,7 @@ $(document).ready(function () {
             });
         });
 
-        $(".right_arrows img:first-child").click(function() {
+        $(".btn_right").click(function() {
             $('.item:first-child').animate({
                 marginRight: -w,
                 opacity: '0.4'
