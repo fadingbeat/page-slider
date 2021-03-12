@@ -1,27 +1,23 @@
-$(document).ready( () => {
-    let show = 8;
-    //calculate each slides width depending on how many you want to show
-    let w = $('.wrapper').width() / show;
-    
-    () => {
-        $(".btn_left").click( () => {
-            $('.item:first-child').animate({
-                marginLeft: -w,
-                opacity: '0.4'
-            }, 'slow', () => {
-                $(this).appendTo($(this).parent()).css({marginLeft: 0, opacity: 1});
-            });
-        });
+let show = 9;
+let w = $('.slider').width() / show;
+var first = $('.item').eq(0);
+var count = $('.item').length;
+var last = $('.item').eq(count - 1);
+first.addClass('active');
 
-        $(".btn_right").click( () => {
-            $('.item:first-child').animate({
-                marginRight: -w,
-                opacity: '0.4'
-            }, 'slow', () => {
-                $(this).appendTo($(this).parent()).css({marginRight: 0, opacity: 1});
-            });
-        });
-    }
-    const timer;
-    timer = setInterval(slider, 1000);
+$('.btn_right').click(function() {
+  var slide = function() {
+    target = $('.active').index();
+    nextSlide(target);
+  }
+
+  var nextSlide = function(target) {
+    $('.item').removeClass('active').eq(target+1).addClass('active');
+    element_clone = $('.item').eq(target).clone();
+    $('.item').eq(target).remove();
+    $('.slider').append(element_clone);
+  };
+
+  slide();
+
 });
