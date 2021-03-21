@@ -4,7 +4,7 @@
   "description": "JQuery image slider",
   "main": "page-slider.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "babel src -d lib"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,13 @@
   "bugs": {
     "url": "https://github.com/fadingbeat/page-slider/issues"
   },
-  "homepage": "https://github.com/fadingbeat/page-slider#readme"
+  "homepage": "https://github.com/fadingbeat/page-slider#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.13.10",
+    "@babel/core": "^7.13.10",
+    "@babel/preset-env": "^7.13.10"
+  },
+  "dependencies": {
+    "babel-plugin-polyfill-corejs3": "^0.1.7"
+  }
 }
