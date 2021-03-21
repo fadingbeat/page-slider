@@ -92,6 +92,9 @@
   background-image: url(../Assets/arrow-blue-left.png);
   border-color: #134880;
 }
+.btn_left:focus {
+  outline: none;
+}
 
 .btn_right {
   background-image: url(../Assets/arrow-gray-right.png);
@@ -108,6 +111,9 @@
 .btn_right:hover {
   background-image: url(../Assets/arrow-blue-right.png);
   border-color: #134880;
+}
+.btn_right:focus {
+  outline: none;
 }
 
 .right-copy p:first-child {
