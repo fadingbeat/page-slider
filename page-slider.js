@@ -12,7 +12,7 @@ $('.btn_right').click( () => {
     if (li.length)
       li.removeClass("active").next().addClass("active");
     else
-      jQuery("li").first().addClass("active");
+      $("li").first().addClass("active");
   }
   slide();
 });
@@ -25,7 +25,7 @@ $('.btn_left').click( () => {
     if (li.length)
       li.removeClass("active").prev().addClass("active");
     else
-      jQuery("li").last().addClass("active");
+      $("li").last().addClass("active");
   }
   slide();
 });

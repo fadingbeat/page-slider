@@ -1,0 +1,19 @@
+{
+  "name": "page-slider",
+  "version": "1.0.0",
+  "description": "JQuery image slider",
+  "main": "page-slider.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fadingbeat/page-slider.git"
+  },
+  "author": "Nikolina P.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fadingbeat/page-slider/issues"
+  },
+  "homepage": "https://github.com/fadingbeat/page-slider#readme"
+}
