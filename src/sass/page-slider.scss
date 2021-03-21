@@ -101,6 +101,9 @@
 		background-image: url(../Assets/arrow-blue-left.png);
 		border-color: #134880;
 	}
+	&:focus {
+		outline: none;
+	}
 }
 
 .btn_right {
@@ -119,6 +122,9 @@
 	&:hover {
 		background-image: url(../Assets/arrow-blue-right.png);
 		border-color: #134880;
+	}
+	&:focus {
+		outline: none;
 	}
 }
 
