@@ -4,7 +4,8 @@
   "description": "JQuery image slider",
   "main": "page-slider.js",
   "scripts": {
-    "build": "babel src -d lib"
+    "build": "babel src -d lib",
+    "sass": "sass --watch src/sass:src/stylesheets"
   },
   "repository": {
     "type": "git",

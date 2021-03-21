@@ -85,7 +85,7 @@
 
 // button styles
 .btn_left {
-	background-image: url(./Assets/arrow-gray-left.png);
+	background-image: url(../Assets/arrow-gray-left.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	padding: 1.9em;
@@ -98,13 +98,13 @@
 	border-radius: 5px;
 
 	&:hover {
-		background-image: url(./Assets/arrow-blue-left.png);
+		background-image: url(../Assets/arrow-blue-left.png);
 		border-color: #134880;
 	}
 }
 
 .btn_right {
-	background-image: url(./Assets/arrow-gray-right.png);
+	background-image: url(../Assets/arrow-gray-right.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	padding: 1.9em;
@@ -117,7 +117,7 @@
 	border-radius: 5px;
 
 	&:hover {
-		background-image: url(./Assets/arrow-blue-right.png);
+		background-image: url(../Assets/arrow-blue-right.png);
 		border-color: #134880;
 	}
 }

@@ -9,13 +9,12 @@ The idea is to build an infinite image slider with jquery. The images should mov
 
 ## Malfunctions
 
-- image slide jumping
 - same behavior with both left and right arrow click
-- not infinite
 
 ## To do
 
-- fix the slide image jumping
-- write logic for right arrow click event
-- write logic that will run the slider infinitely
 - write logic that will operate on two image rows separately
+- add animation 
+
+#### Note:
+This page slider is not responsive
