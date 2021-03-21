@@ -3,4 +3,5 @@
 *.sass.map
 *.scss.map
 
-/Assets
+.vscode/
+node_modules
